@@ -7,6 +7,11 @@ public class Kalkulator {
         int cyfra1=scanner.nextInt();
         System.out.println("Wprowadź drugą cyfrę.");
         int cyfra2=scanner.nextInt();
-        System.out.println("Suma = "+(cyfra1+cyfra2));
+        if(cyfra1>cyfra2&&cyfra1<5){
+            System.out.println(cyfra1+"jest mniejsza od 5");
+        }
+        else{
+            System.out.println("Nie wiem co to jest:)");
+        }
     }
 }
